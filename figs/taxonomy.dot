@@ -1,0 +1,47 @@
+digraph G{
+        splines=polyline;
+        center=true;
+        0->1 [penwidth=3,fontsize=24]
+        0->2 [penwidth=3,fontsize=24]
+
+ 
+        2->3 [penwidth=3,fontsize=24]
+        2->4 [penwidth=3,fontsize=24]
+
+        3->5 [penwidth=3,fontsize=24]
+        4->5 [penwidth=3,fontsize=24]
+
+        3->6 [penwidth=3,fontsize=24]
+        4->6 [penwidth=3,fontsize=24]
+
+        1->5 [penwidth=3,fontsize=24]
+
+        // 2->3 [penwidth=3,fontsize=24]
+        // 2->4 [penwidth=3,fontsize=24]
+        // 2->5 [penwidth=3,fontsize=24]
+        
+        // 3->6 [penwidth=3,fontsize=24]
+        // 3->7 [penwidth=3,fontsize=24]
+
+        //4->6 [penwidth=3,fontsize=24]
+       
+        //5->6 [penwidth=3,fontsize=24]
+        //5->7 [penwidth=3,fontsize=24]
+
+        // 5->6 [penwidth=3,fontsize=24]
+        // 5->7 [penwidth=3,fontsize=24]
+
+        0 [shape=box,style=filled,label="Object Proposals", color=green, penwidth=10,fontsize=24]       
+        1 [shape=box,style=filled,label="Window Scoring", color=orange, penwidth=10,fontsize=24]
+        2 [shape=box,style=filled,label="Grouping Methods", color=plum1, penwidth=10,fontsize=24]
+        3 [shape=box,style=filled,label="Merging \n Superpixels", color=gray, penwidth=10,fontsize=24]
+        4 [shape=box,style=filled,label="Seed \n Segmentation", color=cyan, penwidth=10,fontsize=24]
+        5 [shape=box,style=filled,label="Bounding Box", color=red, penwidth=10,fontsize=24]
+        6 [shape=box,style=filled,label="Region", color=gold, penwidth=10,fontsize=24]
+
+       // 7 [shape=box,style=filled,label="Region", color=tomato, penwidth=10,fontsize=24]
+        // 5 [shape=box,style=filled,label="Edges \n Contours", color=gray, penwidth=10,fontsize=24]
+        // 6 [shape=box,style=filled,label="BBox", color=gold, penwidth=10,fontsize=24]
+        // 7 [shape=box,style=filled,label="Region", color=tomato, penwidth=10,fontsize=24]
+
+}

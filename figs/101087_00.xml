@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vox_compute_composite_fragments><Compute_Composite_Fragments Compute_Composite_Fragments-add_bbox="on" Compute_Composite_Fragments-closed="off" Compute_Composite_Fragments-debug="off" Compute_Composite_Fragments-ess="0.30" Compute_Composite_Fragments-expand_single="off" Compute_Composite_Fragments-expand_type="1" Compute_Composite_Fragments-gap_distance="3.5" Compute_Composite_Fragments-loop_cost="1" Compute_Composite_Fragments-output_folder="" Compute_Composite_Fragments-output_prefix="" Compute_Composite_Fragments-outside="on" Compute_Composite_Fragments-path_threshold=".05" Compute_Composite_Fragments-preprocess_threshold="0.1" Compute_Composite_Fragments-quad="-1" Compute_Composite_Fragments-region_id="92" Compute_Composite_Fragments-show_shock="off" Compute_Composite_Fragments-train="off" Compute_Composite_Fragments-transform_threshold=".075">
+</Compute_Composite_Fragments>
+<cost_params logistic_beta0="0.2" logistic_beta1="0.0263">
+</cost_params>
+1<io input_assoc_dir="" input_contour_extention="_top_30_gpb.cem" input_image_extension=".png" input_object_dir="/Users/maruthinarayanan/lemsvxl/bin/contrib/maruthi/bin/stuffy" input_object_name="101087_00" output_cgraph_fragments_folder="/vision/projects/kimia/categorization/output" save_to_object_folder="off" texton_path="/Users/maruthinarayanan/lemsvxl/bin/contrib/maruthi/bin/stuffy/101087_00.png_texton.bin" training_path="/Users/maruthinarayanan/lemsvxl/bin/contrib/maruthi/bin/stuffy/101087_00.png_gpb.bin">
+</io>
+<web_directive categorization_file="categorization.xml" evaluation_file="evaluation.xml" perf_block="perf.xml" print_params_file="params.xml" print_params_only="off" status_block="status.xml">
+</web_directive>
+</vox_compute_composite_fragments>

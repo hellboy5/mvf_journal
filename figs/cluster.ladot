@@ -1,0 +1,40 @@
+graph G{
+
+        edge [len=2];
+        1--2 [penwidth=3,fontsize=24,color=red]
+        1--5 [penwidth=3,fontsize=24,color=red]
+        5--4 [penwidth=3,fontsize=24,color=red]
+        4--3 [penwidth=3,fontsize=24,color=red]
+        2--3 [penwidth=3,fontsize=24,color=red]
+        6--1 [penwidth=3,fontsize=24,color=red]
+        6--2 [penwidth=3,fontsize=24,color=red]
+        6--3 [penwidth=3,fontsize=24,color=red]
+        6--4 [penwidth=3,fontsize=24,color=red]
+        6--5 [penwidth=3,fontsize=24,color=red]
+
+        edge [len=2];
+        10--11 [penwidth=3,fontsize=24,color=red]
+        11--12 [penwidth=3,fontsize=24,color=red]
+        12--13 [penwidth=3,fontsize=24,color=red]
+        13--10 [penwidth=3,fontsize=24,color=red]
+        14--10 [penwidth=3,fontsize=24,color=red]
+        14--11 [penwidth=3,fontsize=24,color=red]
+        14--12 [penwidth=3,fontsize=24,color=red]
+        14--13 [penwidth=3,fontsize=24,color=red]
+
+
+        {rank=same; 6; 14; }
+        $T_1$1 [label="T1", color=blue, style=bold,penwidth=6,fontsize=24]
+        2 [label="T2", color=blue, style=bold,penwidth=6,fontsize=24]
+        3 [label="T3", color=blue, style = bold,penwidth=6,fontsize=24]
+        4 [label="T4", color=blue, style = bold,penwidth=6,fontsize=24]
+        5 [label="T5", color=blue, style = bold,penwidth=6,fontsize=24]
+        6 [label="T6", color=blue, style = bold,penwidth=6,fontsize=24]
+
+        10 [label="T1", color=blue, style=bold,penwidth=6,fontsize=24]
+        11 [label="T2", color=blue, style=bold,penwidth=6,fontsize=24]
+        12 [label="T3", color=blue, style = bold,penwidth=6,fontsize=24]
+        13 [label="T4", color=blue, style = bold,penwidth=6,fontsize=24]
+        14 [label="T5", color=blue, style = bold,penwidth=6,fontsize=24]
+
+}

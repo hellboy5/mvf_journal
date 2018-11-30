@@ -1,0 +1,20 @@
+graph G{
+        edge [len=3];
+        1--2 [penwidth=3,fontsize=24,color=red]
+        1--5 [penwidth=3,fontsize=24,color=red]
+        5--4 [penwidth=3,fontsize=24,color=red]
+        4--3 [penwidth=3,fontsize=24,color=red]
+        2--3 [penwidth=3,fontsize=24,color=red]
+        6--1 [penwidth=3,fontsize=24,color=red]
+        6--2 [penwidth=3,fontsize=24,color=red]
+        6--3 [penwidth=3,fontsize=24,color=red]
+        6--4 [penwidth=3,fontsize=24,color=red]
+        6--5 [penwidth=3,fontsize=24,color=red]
+        1 [label="T1", color=blue, style=bold,penwidth=6,fontsize=24]
+        2 [label="T2", color=blue, style=bold,penwidth=6,fontsize=24]
+        3 [label="T3", color=blue, style = bold,penwidth=6,fontsize=24]
+        4 [label="T4", color=blue, style = bold,penwidth=6,fontsize=24]
+        5 [label="T5", color=blue, style = bold,penwidth=6,fontsize=24]
+        6 [label="T6", color=blue, style = bold,penwidth=6,fontsize=24]
+
+}
